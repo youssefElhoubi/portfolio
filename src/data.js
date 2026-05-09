@@ -46,13 +46,9 @@ export const skills = [
       'React',
       'ExpressJS',
       'Next.js',
-      'NestJS',
-      'PHP',
+    'I design and build scalable web applications with strong product thinking, clean architecture, and a focus on real-world performance. I enjoy building collaborative developer tools and production-grade APIs.',
       'Laravel',
-      'REST API',
-      'SASS',
-      'Bootstrap',
-      'Tailwind CSS',
+    'Full Stack Developer with hands-on experience delivering modern frontend and backend systems. I turn complex requirements into elegant digital experiences, design robust REST APIs and real-time platforms, and collaborate in agile teams to ship production software.',
       'Svelte',
       'Java',
       'Spring',
@@ -82,6 +78,15 @@ export const experiences = [
 
 export const projects = [
   {
+    name: 'Covvee',
+    description:
+      'Collaborative cloud-native web code editor with real-time collaboration, secure code execution, and an integrated developer experience. Includes Monaco editor, WebSockets-driven sessions, and containerized execution for safe previews.',
+    stack: ['Java', 'Spring Boot', 'React', 'Monaco Editor', 'WebSockets', 'Docker'],
+    githubUrl: 'https://github.com/youssefelhoubi/covvee',
+    liveUrl: '#',
+    image: 'https://placehold.co/600x400/1e293b/64ffda?text=Covvee',
+  },
+  {
     name: 'My Appointment Schedule (MAS)',
     description:
       'Booking and appointment management app with multiple service providers.',
@@ -95,8 +100,9 @@ export const projects = [
       'Tailwind CSS',
       'Bootstrap',
     ],
-    githubUrl: 'https://github.com/youssefelhoubi',
+    githubUrl: 'https://github.com/youssefelhoubi/mas',
     liveUrl: '#',
+    image: 'https://placehold.co/600x400/1e293b/64ffda?text=MAS',
   },
   {
     name: 'Track My Prices (TMP)',
@@ -109,8 +115,9 @@ export const projects = [
       'Sass',
       'Tailwind CSS',
     ],
-    githubUrl: 'https://github.com/youssefelhoubi',
+    githubUrl: 'https://github.com/youssefelhoubi/tmp',
     liveUrl: '#',
+    image: 'https://placehold.co/600x400/1e293b/64ffda?text=TMP',
   },
 ]
 
