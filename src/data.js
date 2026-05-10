@@ -46,9 +46,7 @@ export const skills = [
       'React',
       'ExpressJS',
       'Next.js',
-    'I design and build scalable web applications with strong product thinking, clean architecture, and a focus on real-world performance. I enjoy building collaborative developer tools and production-grade APIs.',
       'Laravel',
-    'Full Stack Developer with hands-on experience delivering modern frontend and backend systems. I turn complex requirements into elegant digital experiences, design robust REST APIs and real-time platforms, and collaborate in agile teams to ship production software.',
       'Svelte',
       'Java',
       'Spring',
@@ -150,24 +148,80 @@ export const education = [
 
 export const certifications = [
   {
-    title: 'OCI (Oracle) DevOps Professional',
-    year: '2025',
-    issuer: 'Oracle',
+    category: 'Stack',
+    items: [
+      { name: 'MERN', iconKey: 'SiMongodb' },
+      { name: 'LAMP', iconKey: 'SiApache' },
+    ],
   },
   {
-    title: 'Developing Back-End Apps with Node.js and Express',
-    year: '2025',
-    issuer: 'IBM (Coursera)',
+    category: 'Programming',
+    items: [
+      { name: 'Web', iconKey: 'FaLaptopCode' },
+      { name: 'Mobile Web', iconKey: 'FaMobileAlt' },
+    ],
   },
   {
-    title: 'Introduction to Programming with C#',
-    year: '2025',
-    issuer: 'Microsoft (Coursera)',
+    category: 'Databases',
+    items: [
+      { name: 'MySQL', iconKey: 'SiMysql' },
+      { name: 'PostgreSQL', iconKey: 'SiPostgresql' },
+      { name: 'MongoDB', iconKey: 'SiMongodb' },
+    ],
   },
   {
-    title:
-      'Java EE Web Development: HTTP, Server, Servlet, HTML/CSS, JSP',
-    year: 'N/A',
-    issuer: 'Andrii Piatakha (Udemy)',
+    category: 'Design Patterns',
+    items: [
+      { name: 'MVC', iconKey: 'FaProjectDiagram' },
+      { name: 'SOA', iconKey: 'FaProjectDiagram' },
+    ],
   },
+  {
+    category: 'Methodologies',
+    items: [
+      { name: 'Merise', iconKey: 'FaClipboardList' },
+      { name: 'UML', iconKey: 'FaDrawPolygon' },
+    ],
+  },
+  {
+    category: 'Technologies',
+    items: [
+      { name: 'JS', iconKey: 'SiJavascript' },
+      { name: 'TS', iconKey: 'SiTypescript' },
+      { name: 'React', iconKey: 'SiReact' },
+      { name: 'ExpressJS', iconKey: 'SiExpress' },
+      { name: 'Next.js', iconKey: 'SiNextdotjs' },
+      { name: 'NestJS', iconKey: 'SiNestjs' },
+      { name: 'PHP', iconKey: 'SiPhp' },
+      { name: 'Laravel', iconKey: 'SiLaravel' },
+      { name: 'REST API', iconKey: 'FaNetworkWired' },
+      { name: 'SASS', iconKey: 'SiSass' },
+      { name: 'Bootstrap', iconKey: 'SiBootstrap' },
+      { name: 'Tailwind CSS', iconKey: 'SiTailwindcss' },
+      { name: 'Svelte', iconKey: 'SiSvelte' },
+      { name: 'Java', iconKey: 'SiJava' },
+      { name: 'Spring', iconKey: 'SiSpring' },
+      { name: 'WebSockets', iconKey: 'SiWebsocket' },
+      { name: 'Docker', iconKey: 'SiDocker' },
+    ],
+  },
+  {
+    category: 'Software',
+    items: [
+      { name: 'VS Code', iconKey: 'SiVisualstudiocode' },
+      { name: 'Figma', iconKey: 'SiFigma' },
+      { name: 'Adobe XD', iconKey: 'SiAdobexd' },
+      { name: 'Postman', iconKey: 'SiPostman' },
+      { name: 'IntelliJ', iconKey: 'SiIntellijidea' },
+    ],
+  },
+  { category: 'Version Control', items: [ { name: 'Git', iconKey: 'SiGit' }, { name: 'GitHub', iconKey: 'SiGithub' } ] },
+  {
+    category: 'Project Management',
+    items: [
+      { name: 'Trello', iconKey: 'SiTrello' },
+      { name: 'Jira', iconKey: 'SiJira' },
+      { name: 'GitHub Projects', iconKey: 'SiGithub' },
+    ],
+  }
 ]
